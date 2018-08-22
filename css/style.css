@@ -1,7 +1,7 @@
 
 /*
   Theme Name: Folio
-  Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+  Theme URL: https://bootstrapmade.com/folio-bootstrap-issues-template/
   Author: BootstrapMade.com
   Author URL: https://bootstrapmade.com
 */
@@ -11,7 +11,7 @@
 
 body {
   background: #232066;
-  color: #898989;
+  color: #fff;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -31,8 +31,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+h1 {
+  color: #ff0000;
+}
+
 h2 {
-  color: #ffffff;
+  color: #232066;
   font-weight: 600;
 }
 
@@ -86,7 +90,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #000;
   line-height: 28px;
 }
 
@@ -178,7 +182,7 @@ p {
 
 nav {
   position: fixed;
-  background: #fff;
+  background: #ffffff;
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -222,7 +226,7 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
+  width: auto;
   height: 50px;
 }
 
@@ -247,7 +251,7 @@ nav ul li a {
 
 
 #header .header-content {
-  height: 100vh;
+  height: 55vh;
   text-align: left;
   width: 100%;
   display: flex;
@@ -296,7 +300,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #232066;
 }
 
 #about .div-img-bg .about-img img {
@@ -309,7 +313,6 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
 }
@@ -386,26 +389,28 @@ nav ul li a {
   display: none;
 }
 
-
 /*-----------------------------------------------------------------------------------*/
-/*  Portfolio
+/*  issues
 /*-----------------------------------------------------------------------------------*/
 
-#portfolio {
+#issues,  #issues-blog {
+  height: auto;
+  width: 100%;
+  background: #f7f7f7;
+  padding-bottom: 60px;
   position: relative;
-  padding-bottom: 50px;
 }
 
-#portfolio .portfolio-list {
+#issues .issues-list {
   margin-bottom: 50px;
 }
 
-#portfolio .portfolio-list .nav {
+#issues .issues-list .nav {
   display: inline-block;
   margin: 0;
 }
 
-#portfolio .portfolio-list .nav li {
+#issues .issues-list .nav li {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
@@ -423,7 +428,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+#issues .issues-list .nav li:hover, #issues .issues-list .nav li.filter-active  {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -432,58 +437,46 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-container {
+#issues .issues-container {
   display: inline-block;
   margin-bottom: 50px;
   width: 100%;
 }
 
-.portfolio-thumbnail {
+.issues-thumbnail {
   margin-bottom: 30px;
   overflow: hidden;
 }
 
-.portfolio-thumbnail img {
+.issues-thumbnail img {
   max-width: 100%;
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*  Journal
-/*-----------------------------------------------------------------------------------*/
-
-#journal,  #journal-blog {
-  height: auto;
-  width: 100%;
-  background: #f7f7f7;
-  padding-bottom: 60px;
-  position: relative;
-}
-
-#journal-blog {
+#issues-blog {
   background: #fff;
   padding-bottom: 30px;
 }
 
-#journal .journal-block {
+#issues .issues-block {
   display: inline-block;
   height: auto;
   width: 100%;
 }
 
-#journal .journal-block .journal-info {
+#issues .issues-block .issues-info {
   position: relative;
 }
 
-.journal-block .journal-info img {
+.issues-block .issues-info img {
   max-width: 100%;
 }
 
-.journal-block .journal-info .journal-txt {
+.issues-block .issues-info .issues-txt {
   padding: 25px 0px;
   position: relative;
 }
 
-.journal-block .journal-info .journal-txt h4 a {
+.issues-block .issues-info .issues-txt h4 a {
   display: block;
   font-size: 19px;
   line-height: 24px;
@@ -497,7 +490,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt h4 a:hover {
+.issues-block .issues-info .issues-txt h4 a:hover {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -506,11 +499,12 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt p {
+.issues-block .issues-info .issues-txt p {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
