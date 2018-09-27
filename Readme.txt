@@ -1,5 +1,6 @@
-*This is a free bootstrap template I downloaded and will be modifying*
+Thanks for downloading this theme!
 
-Feel free to pull this repository and change it however you'd like. Just don't forget to commit it so everything can be kept up to date!
-
-
+Theme Name: Folio
+Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+Author: BootstrapMade.com
+Author URL: https://bootstrapmade.com

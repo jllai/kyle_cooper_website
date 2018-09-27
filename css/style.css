@@ -1,7 +1,7 @@
 
 /*
   Theme Name: Folio
-  Theme URL: https://bootstrapmade.com/folio-bootstrap-issues-template/
+  Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
   Author: BootstrapMade.com
   Author URL: https://bootstrapmade.com
 */
@@ -11,7 +11,7 @@
 
 body {
   background: #232066;
-  color: #fff;
+  color: #898989;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -31,12 +31,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-h1 {
-  color: #ff0000;
-}
-
 h2 {
-  color: #232066;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -90,7 +86,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #000;
+  color: #999999;
   line-height: 28px;
 }
 
@@ -105,18 +101,18 @@ p {
 }
 
 .btn {
-  background: #ff0000;
+  background: #333;
   border: medium none;
-  border-radius: 10px;
-  color: #ff0000;
-  font-size: 50px;
-  font-color: #fff;
+  border-radius: 0;
+  color: #fff;
+  font-size: 12px;
+  height: 50px;
   line-height: 50px;
-  padding-left: 30px;
+  padding: 0 30px;
   text-transform: uppercase;
 }
 
-.section-title-blue h2 {
+.btn:hover, .btn:focus {
   color: #fff;
 }
 
@@ -132,10 +128,6 @@ p {
   font-size: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
-}
-
-.section-title-blue {
-  color: #fff;
 }
 
 .form-control {
@@ -186,7 +178,7 @@ p {
 
 nav {
   position: fixed;
-  background: #ffffff;
+  background: #fff;
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -230,7 +222,7 @@ nav ul li a {
 }
 
 .logo img {
-  width: auto;
+  width: 100px;
   height: 50px;
 }
 
@@ -255,7 +247,7 @@ nav ul li a {
 
 
 #header .header-content {
-  height: 55vh;
+  height: 100vh;
   text-align: left;
   width: 100%;
   display: flex;
@@ -304,7 +296,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #232066;
+  border: 20px solid #b8a07e;
 }
 
 #about .div-img-bg .about-img img {
@@ -317,6 +309,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
+  font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
 }
@@ -393,28 +386,26 @@ nav ul li a {
   display: none;
 }
 
+
 /*-----------------------------------------------------------------------------------*/
-/*  issues
+/*  Portfolio
 /*-----------------------------------------------------------------------------------*/
 
-#issues,  #issues-blog {
-  height: auto;
-  width: 100%;
-  background: #f7f7f7;
-  padding-bottom: 60px;
+#portfolio {
   position: relative;
+  padding-bottom: 50px;
 }
 
-#issues .issues-list {
+#portfolio .portfolio-list {
   margin-bottom: 50px;
 }
 
-#issues .issues-list .nav {
+#portfolio .portfolio-list .nav {
   display: inline-block;
   margin: 0;
 }
 
-#issues .issues-list .nav li {
+#portfolio .portfolio-list .nav li {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
@@ -432,7 +423,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#issues .issues-list .nav li:hover, #issues .issues-list .nav li.filter-active  {
+#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -441,46 +432,58 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#issues .issues-container {
+#portfolio .portfolio-container {
   display: inline-block;
   margin-bottom: 50px;
   width: 100%;
 }
 
-.issues-thumbnail {
+.portfolio-thumbnail {
   margin-bottom: 30px;
   overflow: hidden;
 }
 
-.issues-thumbnail img {
+.portfolio-thumbnail img {
   max-width: 100%;
 }
 
-#issues-blog {
+/*-----------------------------------------------------------------------------------*/
+/*  Journal
+/*-----------------------------------------------------------------------------------*/
+
+#journal,  #journal-blog {
+  height: auto;
+  width: 100%;
+  background: #f7f7f7;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+#journal-blog {
   background: #fff;
   padding-bottom: 30px;
 }
 
-#issues .issues-block {
+#journal .journal-block {
   display: inline-block;
   height: auto;
   width: 100%;
 }
 
-#issues .issues-block .issues-info {
+#journal .journal-block .journal-info {
   position: relative;
 }
 
-.issues-block .issues-info img {
+.journal-block .journal-info img {
   max-width: 100%;
 }
 
-.issues-block .issues-info .issues-txt {
+.journal-block .journal-info .journal-txt {
   padding: 25px 0px;
   position: relative;
 }
 
-.issues-block .issues-info .issues-txt h4 a {
+.journal-block .journal-info .journal-txt h4 a {
   display: block;
   font-size: 19px;
   line-height: 24px;
@@ -494,7 +497,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.issues-block .issues-info .issues-txt h4 a:hover {
+.journal-block .journal-info .journal-txt h4 a:hover {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -503,12 +506,11 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.issues-block .issues-info .issues-txt p {
+.journal-block .journal-info .journal-txt p {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
 }
-
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact

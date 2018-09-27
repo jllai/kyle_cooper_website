@@ -62,14 +62,14 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-  /* issues */
-  #issues .issues-list .nav li {
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
     float: none;
     margin: 20px;
     display: inline-block;
   }
-  /* issues */
-  #issues .issues-block .issues-info {
+  /* journal */
+  #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
@@ -133,14 +133,14 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-  /* issues */
-  #issues .issues-list .nav li {
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
     float: none;
     margin: 20px;
     display: inline-block;
   }
-  /* issues */
-  #issues .issues-block .issues-info {
+  /* journal */
+  #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
@@ -204,14 +204,14 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-  /* issues */
-  #issues .issues-list .nav li {
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
     float: none;
     margin: 10px;
     display: inline-block;
   }
-  /* issues */
-  #issues .issues-block .issues-info {
+  /* journal */
+  #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
@@ -275,13 +275,13 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-  /* issues */
-  #issues .issues-list .nav li {
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
     float: none;
     margin: 20px;
   }
-  /* issues */
-  #issues .issues-block .issues-info {
+  /* journal */
+  #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
@@ -345,13 +345,13 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-  /* issues */
-  #issues .issues-list .nav li {
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
     float: none;
     margin: 20px;
   }
-  /* issues */
-  #issues .issues-block .issues-info {
+  /* journal */
+  #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
